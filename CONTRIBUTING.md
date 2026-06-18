@@ -23,7 +23,13 @@ collections, model routers/proxies, and generic LLM frameworks.
 
 - One tool per pull request.
 - Add to the correct section, in **alphabetical order** (case-insensitive).
-- Use: `- [Name](https://link) - One concise sentence ending in a period.`
+- Tool sections are tables. Add a row:
+  `| **[Name](https://github.com/owner/repo)** | <stars> | <contributors> | <updated> | Short what. |`
+  Copy the three Shields badge cells from a neighbouring row and swap the
+  `owner/repo` slug; the star, contributor, and last-commit numbers fill in
+  automatically. Keep the *What* cell to one short phrase.
+- The *Cost & observability* and *Related lists* sections use bullets:
+  `- [Name](https://link) - One concise sentence ending in a period.`
 - Link to the project's repository or homepage. No tracking parameters.
 - Keep descriptions neutral and factual. No marketing superlatives.
 - Ensure your editor trims trailing whitespace.
